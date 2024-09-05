@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: #dcd4d4;
+}
+
+header {
+    background-color: #0d450d;
+    color: white;
+    padding: 12px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #003000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.welcome-message{
+    padding: 15px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.schedules-container {
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.schedules {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30%;
+}
+
+.schedule-item {
+    background-color: #e8e8e8;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.schedule-item:hover {
+    background-color: #d6d6d6;
+}
+
+.category {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(22, 57, 105);
+}
+
+.physical {
+    background-color: #ee7777;
+}
+
+.tactical {
+    background-color: #76b3f0;
+}
+
+.technical {
+    background-color: #dbe87c;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #004000;
+    color: white;
+    position: relative;
+    bottom: 0;
+}

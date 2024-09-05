@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="sginUp.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Back to Schedule</a>
+            </div>
+        </nav>
+        <h2>Survival Skills - Wilderness</h2>
+    </header>
+
+    <div class="training-details">
+        <h3>Training Details</h3>
+        <p><b>Date:</b> 2024-09-25</p>
+        <p><b>Instructor:</b> Sgt. Davis</p>
+        <p><b>Description:</b> Learn essential survival skills for wilderness environments including building shelters, finding food, and navigating without a compass. Important for missions that take place in remote areas.</p>
+        <p><b>Duration:</b> 4 hours</p>
+        <p><b>Equipment:</b> Survival kit, map, compass</p>
+    </div>
+
+    <div class="sign-up">
+        <h3>Sign Up for Survival Skills</h3>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name"><br><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name"><br><br>
+
+            <label for="id-number">ID Number:</label>
+            <input type="text" name="id-number"><br><br>
+
+            <label for="rank">Rank:</label>
+            <select name="rank">
+                <option value="Private">Private</option>
+                <option value="Public">Public</option>
+            </select><br><br>
+
+            <label>Gender:</label>
+            <div class="gender-options">
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Army Training Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>

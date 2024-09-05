@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #0d450d;
+    color: white;
+    padding: 10px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.nav-links {
+    padding: 10px;
+    background-color: #003000;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.training-details {
+    background-color: white;
+    padding: 18px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.sign-up {
+    background-color: rgb(206, 206, 206);
+    padding: 18px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.gender-options label {
+    display: flex;
+}
+
+.gender-options input {
+    width: auto;
+}
+
+input, select {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #0d450d;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004000;
+    color: white;
+    bottom: 0;
+}
